@@ -1,0 +1,220 @@
+/* Сперва общие правила */
+
+* {
+    box-sizing: border-box
+
+}
+
+/* Потом селекторы по тегам */
+
+html {
+
+}
+
+main {
+    width: 300px;
+    margin: 0px auto;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+p {
+margin-right: 30px;
+margin-top: 30px;
+padding-right: 25px;
+line-height: 1.5;
+}
+
+a {
+
+}
+
+/* Колонки */
+
+.row {
+display: flex;
+}
+.col {
+flex: auto;
+}
+
+
+/* Потом селекторы по классам */
+
+.text-input {
+border-style: solid;
+border-width: 1px;
+width: 250px;
+border-color: grey;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-top: 15px;
+font-size: 15px;
+}
+
+.button {
+border-style: solid;
+border-width: 1px;
+border-color: #554AF0;
+background-color: #554AF0;
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-top: 15px;
+font-size: 15px;
+}
+
+/* Потом специальные правила по страничкам */
+
+/* Login*/
+
+.input-login {
+border-style: solid;
+border-width: 1px;
+width: 300px;
+border-color: grey;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-top: 15px;
+font-size: 15px;
+}
+
+
+/* Страничка жанров и тегов */
+
+.genre-first {
+border-style: solid;
+border-width: 1px;
+border-color: #E1F5EA;
+background-color: #E1F5EA;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-top: 15px;
+margin-right: 10px;
+}
+
+.genre-second {
+border-style: solid;
+border-width: 1px;
+border-color: #CBEDFF;
+background-color: #CBEDFF;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-top: 15px;
+margin-right: 100px;
+}
+
+.genre-third {
+border-style: solid;
+border-width: 1px;
+border-color: #EEE5BD;
+background-color: #EEE5BD;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-top: 15px;
+margin-right: 180px;
+}
+
+.genre-fourth {
+border-style: solid;
+border-width: 1px;
+border-color: #EBDCF9;
+background-color: #EBDCF9;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-top: 15px;
+margin-right: 220px;
+}
+
+.tag {
+
+}
+
+/* Страничка популярного */
+
+.cover {
+width: 130px;
+height: 190px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+/* Страничка подписки  */
+
+.box-green {
+border-style: solid;
+border-width: 1px;
+border-color: #E1F5EA;
+background-color: #E1F5EA;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 5px;
+margin-top: 25px;
+margin-bottom: 25px;
+margin-right: 50px;
+}
+
+.box-purple {
+border-style: solid;
+border-width: 1px;
+border-color: #EBDCF9;
+background-color: #EBDCF9;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 15px;
+padding-bottom: 15px;
+border-radius: 5px;
+margin-top: 25px;
+margin-bottom: 25px;
+margin-right: 50px;
+}
+
+.text-large {
+font-size: 25px;
+font-weight: bold;
+}
+
+.button-link {
+border-style: solid;
+border-width: 1px;
+border-color: #554AF0;
+background-color: #554AF0;
+color: white;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+margin-top: 15px;
+padding-right: 10px;
+margin-right: 10px;
+text-decoration: none;
+}
+
+.checkbox {
+transform: scale(1.6);
+}
+
+#Смерть {
+text-decoration: none;
+}
